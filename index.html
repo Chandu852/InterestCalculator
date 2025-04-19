@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> interest calculator</title>
+        <meta charst="UTF-8">
+        <link rel="stylesheet" href='Calculator.css'>
+    <link rel="icon" href="D:\photos\chandu\shiva.jpg">
+
+    </head>
+    <body>
+        <div class="container">
+            <h2> Interest calculator </h2>
+            <p>
+            <label for="pamt">principal amount</label> 
+            <input type="text" id="pamt"> <span>&#8377</span>
+            </p>
+            <p>
+                <label for="Time">Time   </label>
+                <input type="text" id="Time"><span> year(s)</span>
+            </p>
+            <p>
+                <label for="roi">Rate of intrest</label>
+                <input type="text" id="roi"><span>%</span>
+            </p>
+            <p>
+                <button class="cal"  onclick="calcAmount()">Calc Interest</button>
+
+             </p>
+             <p>
+                <output id="intAmt"></output>
+                <br/>
+                <output id="totAmt"></output>
+             </p>
+        </div>
+        <script src="interest.js"></script>
+    </body>
+</html>

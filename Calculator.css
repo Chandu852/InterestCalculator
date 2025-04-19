@@ -1,0 +1,50 @@
+/*defining styles for calc */
+.container{
+    width:360px;
+    height:280px;
+    background:#FFFFF0;
+    color:#828;
+    padding:10px;
+    border-radius:10px;
+    margin:auto;
+    transition:60ms linear;
+} 
+.container:hover{
+       background:#0277BD;
+       color:#FFFFF0;
+
+}
+.container h2{
+       text-align:center;
+       text-decoration:1px dotted underline;
+}
+/*input,output{
+    border-radius: 20px;
+} */
+label,span,output{
+       font-size: 20px;
+
+} 
+.cal{
+       border-radius: 20px;
+}  
+input{
+       /*border:none;*/
+       outline:none;
+       background:none;
+       border-bottom:2px solid black;
+       color:#F00;
+       border-radius: 20px;
+}
+button{
+       width:100px;
+       height:35px;
+       border:round;
+       outline:0;
+       background:#F00;  
+       padding:10px 10px;     
+}
+input.focus{
+       border-bottom:2px solid #fff;
+}
+
